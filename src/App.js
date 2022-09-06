@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './style.css';
+
 export default function App() {
   const [colors, setColor] = useState([]);
   const [searchColor, setSearchColor] = useState('');
